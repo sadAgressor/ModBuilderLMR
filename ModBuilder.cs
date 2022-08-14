@@ -12,7 +12,7 @@ public class ModBuilder : MonoBehaviour
     {
         AssetBundleBuild[] buildMap = new AssetBundleBuild[1];
 
-        var assetNames = AssetDatabase.GetAllAssetPaths().Where(s => s.StartsWith("Assets/") && !s.Contains("Editor") && !s.Contains(".meta") && !s.Contains("Scenes")).ToArray();
+        var assetNames = AssetDatabase.GetAllAssetPaths().Where(s => s.StartsWith("Assets/") && !s.Contains("Editor") && !s.Contains(".meta") && !s.Contains(".unity") && !s.Contains("Scenes")).ToArray();
         var addressableNames = new string[assetNames.Length];
 
         for (var i = 0; i < assetNames.Length; i++)

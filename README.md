@@ -7,4 +7,7 @@ P.S. В файле **ModBuilder.cs** поменяй строку
 ```c# 
 /*13*/ string modPath = @"GAME PATH";
 ```
-на свой путь до игры. Пример: ```E:\SteamLibrary\steamapps\common\Love, Money, Rock-n-Roll```
+на свой путь до игры. Пример: 
+```c# 
+string modPath = @"E:\SteamLibrary\steamapps\common\Love, Money, Rock-n-Roll";
+```

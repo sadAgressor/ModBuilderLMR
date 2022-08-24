@@ -7,11 +7,10 @@ using UnityEditor;
 
 public class ModBuilder : MonoBehaviour
 {
-    
     [MenuItem("Mods/Build Mod")]
     static void BuildMod()
     {
-        string modPath = @"E:\SteamLibrary\steamapps\common\Love, Money, Rock-n-Roll";
+        string modPath = @"œ”“‹ ƒŒ »√–€";
         modPath += @"\Love, Money, Rock'n'Roll_Data\Mods";
         AssetBundleBuild[] buildMap = new AssetBundleBuild[1];
 

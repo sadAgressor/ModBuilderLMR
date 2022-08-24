@@ -10,7 +10,7 @@ public class ModBuilder : MonoBehaviour
     [MenuItem("Mods/Build Mod")]
     static void BuildMod()
     {
-        string modPath = @"œ”“‹ ƒŒ »√–€";
+        string modPath = @"GAME PATH";
         modPath += @"\Love, Money, Rock'n'Roll_Data\Mods";
         AssetBundleBuild[] buildMap = new AssetBundleBuild[1];
 

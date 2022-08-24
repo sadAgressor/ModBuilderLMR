@@ -5,6 +5,6 @@ How To Create LMR Mod
 
 P.S. В файле **ModBuilder.cs** поменяй строку 
 ```c# 
-/*14*/ string modPath = @"ПОЛНЫЙ ПУТЬ ДО ИГРЫ";
+/*14*/ string modPath = @"GAME PATH";
 ```
 на свой путь до игры. Пример: ```E:\SteamLibrary\steamapps\common\Love, Money, Rock-n-Roll```
